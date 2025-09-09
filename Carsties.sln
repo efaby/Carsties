@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\Aucti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{EC63E086-7102-4DF3-8B6B-AF068562F7FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{EC63E086-7102-4DF3-8B6B-AF068562F7FE}.Release|x64.Build.0 = Release|Any CPU
 		{EC63E086-7102-4DF3-8B6B-AF068562F7FE}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC63E086-7102-4DF3-8B6B-AF068562F7FE}.Release|x86.Build.0 = Release|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Debug|x64.Build.0 = Debug|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Debug|x86.Build.0 = Debug|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Release|x64.ActiveCfg = Release|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Release|x64.Build.0 = Release|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D2D44081-4960-40FC-8F47-B4C66BFDD075} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{EC63E086-7102-4DF3-8B6B-AF068562F7FE} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{EDA53B60-86B9-4EC6-B12E-2AFF475A1C20} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
