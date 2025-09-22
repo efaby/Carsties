@@ -10,6 +10,7 @@ import { useParamsStore } from "@/hooks/useParamsStore";
 import { useShallow } from "zustand/shallow";
 import queryString from "query-string";
 import EmptyFilter from "../components/EmptyFilter";
+import { constants } from "buffer";
 
 
 export default function Listings() {
@@ -20,7 +21,9 @@ export default function Listings() {
     pageSize: state.pageSize,
     searchTerm: state.searchTerm,
     orderBy: state.orderBy,
-    filterBy: state.filterBy
+    filterBy: state.filterBy,
+    seller: state.seller,
+    winner: state.winner
   })));
 
   const setParams = useParamsStore(state => state.setParams);
@@ -35,6 +38,7 @@ export default function Listings() {
   }
   useEffect(() => {
     getData(url).then((data) => {
+      console.log('Fetched data:', data);
       setData(data);
     });
   }, [url]);
