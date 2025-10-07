@@ -35,3 +35,11 @@ export async function updateAuction(id: string, data: FieldValues) {
 export async function deleteAuction(id: string) {
   return fetchWrapper.del(`auctions/${id}`);
 }
+
+export async function getBidsForAuction(id: string) {
+  return fetchWrapper.get(`bids/${id}`);
+}
+
+export async function placeBidForAuction(auctionId: string, amount: number) {
+  return fetchWrapper.post(`bids?auctionId=${auctionId}&amount=${amount}`, {});
+}
