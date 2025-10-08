@@ -1,5 +1,4 @@
 import Heading from "@/app/components/Heading";
-import Head from "next/head";
 import AuctionForm from "../AuctionForm";
 
 export default function Create() {
