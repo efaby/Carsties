@@ -1,3 +1,4 @@
+
 namespace AuctionService.Entities;
 
 public class Auction
@@ -13,5 +14,7 @@ public class Auction
     public DateTime AuctionEnd { get; set; } = DateTime.UtcNow;
     public Status Status { get; set; }
     public Item Item { get; set; }
+
+    public bool HasReservePrice() => ReservePrice > 0;
 
 }
